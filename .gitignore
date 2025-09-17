@@ -1,0 +1,59 @@
+# =========================
+# Global ignores
+# =========================
+.idea/
+.vscode/
+.DS_Store
+*.log
+
+# =========================
+# Backend (Spring Boot) - url-shortener-sb
+# =========================
+url-shortener-sb/target/
+url-shortener-sb/.mvn/wrapper/maven-wrapper.jar
+!url-shortener-sb/src/main/**/target/
+!url-shortener-sb/src/test/**/target/
+
+# IDE and build configs
+url-shortener-sb/.apt_generated
+url-shortener-sb/.classpath
+url-shortener-sb/.factorypath
+url-shortener-sb/.project
+url-shortener-sb/.settings
+url-shortener-sb/.springBeans
+url-shortener-sb/.sts4-cache
+
+# NetBeans
+url-shortener-sb/nbproject/private/
+url-shortener-sb/nbbuild/
+url-shortener-sb/dist/
+url-shortener-sb/nbdist/
+url-shortener-sb/.nb-gradle/
+url-shortener-sb/build/
+!url-shortener-sb/src/main/**/build/
+!url-shortener-sb/src/test/**/build/
+
+# Environment files
+url-shortener-sb/.env
+url-shortener-sb/.env.prod
+
+# =========================
+# Frontend (React) - url-shortener-react
+# =========================
+url-shortener-react/node_modules/
+url-shortener-react/dist/
+url-shortener-react/build/
+url-shortener-react/.env
+url-shortener-react/.local
+
+# Logs
+url-shortener-react/npm-debug.log*
+url-shortener-react/yarn-debug.log*
+url-shortener-react/yarn-error.log*
+url-shortener-react/pnpm-debug.log*
+url-shortener-react/lerna-debug.log*
+
+# Editor
+url-shortener-react/.idea
+url-shortener-react/.vscode/*
+!url-shortener-react/.vscode/extensions.json
